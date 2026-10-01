@@ -330,10 +330,12 @@ main {
   margin-bottom: 17px;
 }
 .section-heading h2 {
-  font-size: 19px;
   display: flex;
   align-items: center;
   gap: 10px;
+}
+.page-heading ~ .section-heading h2 {
+  font-size: 19px;
 }
 .section-heading h2 > span {
   font: 13px var(--mono);
